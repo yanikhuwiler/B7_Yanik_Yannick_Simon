@@ -88,6 +88,10 @@ body {
       height: auto;
     }
 
+  .row {
+      display: flex;
+    }
+
 
 .footer {
   background-color: #ea8500;
