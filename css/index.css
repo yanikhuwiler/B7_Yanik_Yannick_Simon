@@ -58,6 +58,11 @@
   opacity: 1;
 }
 
+
+.inhalt{
+  width: 60%;
+}
+
 .footer {
   background-color: #ea8500;
   height: 50px;
