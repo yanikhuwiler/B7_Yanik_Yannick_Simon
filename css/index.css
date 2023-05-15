@@ -92,6 +92,10 @@ body {
       display: flex;
     }
 
+  .product_pic{
+      width: 45%;
+      height: auto;
+  }
 
 .footer {
   background-color: #ea8500;
