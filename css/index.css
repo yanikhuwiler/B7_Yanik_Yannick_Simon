@@ -6,6 +6,15 @@
   margin: 0;
 }
 
+body {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+   }
+
 .header {
   background-color: #ea8500;
   padding: 10px;
@@ -59,9 +68,13 @@
 }
 
 
-.inhalt{
-  width: 60%;
-}
+.inhalt {
+      width: 60%;
+      background-color: #f2f2f2;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
 
 .footer {
   background-color: #ea8500;
