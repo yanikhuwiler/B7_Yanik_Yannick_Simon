@@ -45,4 +45,43 @@ const databaseClient = {
     )}) VALUES ('${values.join("','")}')`;
     return await databaseClient.executeSqlQuery(sql);
   },
+  
+  
+  
+     // JavaScript-Code für den Image Slider
+    var images = ["bild1.jpg", "bild2.jpg", "bild3.jpg"];
+    var currentIndex = 0; // Index des aktuellen Bildes
+
+    function showImage(index) {
+      var slider = document.getElementById("slider");
+      var img = slider.getElementsByTagName("img");
+
+      for (var i = 0; i < img.length; i++) {
+        img[i].style.display = "none";
+      }
+
+      img[index].style.display = "block";
+    }
+
+    function nextImage() {
+      currentIndex++;
+      if (currentIndex >= images.length) {
+        currentIndex = 0;
+      }
+      showImage(currentIndex);
+    }
+
+    function previousImage() {
+      currentIndex--;
+      if (currentIndex < 0) {
+        currentIndex = images.length - 1;
+      }
+      showImage(currentIndex);
+    }
+
+    // Automatischer Wechsel der Bilder
+    setInterval(nextImage, 3000); // Wechselt alle 3 Sekunden zum nächsten Bild
+ 
+  
+  
 };
