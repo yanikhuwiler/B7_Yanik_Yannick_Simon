@@ -29,32 +29,6 @@ body {
   background-color: #ffb38a;
 }
 
-.slider {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.slide img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: none;
-}
-
-.slide.active {
-  opacity: 1;
-}
-
 
 .inhalt {
       width: 60%;
