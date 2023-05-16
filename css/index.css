@@ -15,11 +15,6 @@ body {
      height: 100vh;
    }
 
-.header {
-  background-color: #EA8500;
-  height: 100px;
-}
-
 .nav {
    float: right;
  }
