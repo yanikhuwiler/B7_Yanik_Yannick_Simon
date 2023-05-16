@@ -10,6 +10,17 @@
   margin: 0;
 }
 
+@font-face {
+      font-family: 'Roboto';
+      src: url('fonts/roboto-light.ttf') format('truetype');
+  
+
+@font-face {
+      font-family: 'Roboto Black';
+      src: url('fonts/roboto-blackitalic.ttf') format('truetype');
+  
+  
+
 .header {
   background-color: #ffd7b5;
   height: 100px;
