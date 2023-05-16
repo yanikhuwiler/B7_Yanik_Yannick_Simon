@@ -19,7 +19,20 @@
       font-family: 'Roboto Black';
       src: url('fonts/roboto-blackitalic.ttf') format('truetype');
   
-  
+h1{
+  font-family: 'Roboto Black';
+  font-size: 3em;
+}
+
+h3{
+  font-family: 'Roboto Black';
+  font-size: 2em;
+}
+
+p{
+  font-family: 'Roboto';
+  font-size: 1em;
+}
 
 .header {
   background-color: #ffd7b5;
